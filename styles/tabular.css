@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    margin-left: 0%;
+    border-spacing: 1vw;
+    margin: -0.7vh 0 0vh 0;
+}
+
+#first tr
+{
+    background-color: orange;
+    height: 10vh;
+}
+#second tr
+{
+    background-color: yellow;
+    height: 30vh;
+}
+
+#third tr
+{
+    background-color: blue;
+    height: 25vh;
+}
+#fourth tr
+{
+    background-color: gray;
+    height: 18vh;
+}
