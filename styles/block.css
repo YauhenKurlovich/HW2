@@ -4,8 +4,7 @@
     height: 10vh;
     width: 49%;
     float: left;
-    margin-right: 2vh;
-    margin-left: 0.8;
+    margin: -0.7vh 0vh 4vh 2vh;
 }
 
 .second {
@@ -14,19 +13,16 @@
     height: 30vh;
     width: 99%;
     float: left;
-    margin-top: 3vh;
-    margin-left: 0.8;
+    margin: -0.7vh 0vh 0vh 2vh;
 }
 
 .third {
     display: block;
     background-color: blue;
-    height: 30vh;
+    height: 25vh;
     width: 32.3%;
     float: left;
-    margin-top: 3vh;
-    margin-right: 2vh;
-    margin-left: 0.8;
+    margin: 4vh 0vh 0vh 2vh;
 }
 
 .fourth {
@@ -35,7 +31,5 @@
     height: 18vh;
     width: 24%;
     float: left;
-    margin-top: 3vh;
-    margin-right: 2vh;
-    margin-left: 0.8;
+    margin: 4vh 0vh 0vh 2vh;
 }
