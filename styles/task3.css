@@ -1,0 +1,44 @@
+.header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15vh;
+    background-color: gold;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 1%;
+    width: 9%;
+    height: 430px;
+    background: rgba(201, 116, 230, 0.5);
+}
+
+a {
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+}
+
+.main {
+    width: 85%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 70vh;
+    border-radius: 25px;
+    background: rgba(31, 114, 240, 0.5);
+}
+
+.footer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15vh;
+    background-color: gold;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px; 
+    bottom: 0%;
+    text-align: center;
+}
