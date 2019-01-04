@@ -3,9 +3,7 @@
     background-color: red;
     height: 40vh;
     width: 40vh;
-    margin-left: 0;
-    margin-top: 0;
-    z-index: 1;
+    top: 5vh;
 }
 
 .second {
@@ -13,14 +11,19 @@
     background-color: green;
     height: 40vh;
     width: 40vh;
-    margin-left: 80px;
-    top: -20px;
-    z-index: 2;
+    top: 20vh;
+    left: 15vh;
 }
 
 .third {
     display: block;
     background-color: blue;
-    height: 30vh;
-    width: 40vh;
+    height: 40vh;
+    width: 40vh; 
+    top: 35vh;
+    left: 30vh;
+}
+
+div {
+    position: fixed;
 }
