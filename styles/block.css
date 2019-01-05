@@ -1,35 +1,90 @@
 .first {
-    display: block;
+    display: inline-block;
     background-color: orange;
-    height: 10vh;
+    height: 100%;
     width: 49%;
-    float: left;
-    margin: -0.7vh 0vh 4vh 2vh;
+    text-align: left;
 }
 
 .second {
-    display: block;
+    display: inline-block;
     background-color: yellow;
-    height: 30vh;
-    width: 99%;
-    float: left;
-    margin: -0.7vh 0vh 0vh 2vh;
+    height: 100%;
+    width: 100%;
+    text-align: left;
 }
 
 .third {
-    display: block;
+    display: inline-block;
     background-color: blue;
-    height: 25vh;
-    width: 32.3%;
-    float: left;
-    margin: 4vh 0vh 0vh 2vh;
+    height: 94%;
+    width: 31%;
+    text-align: left;
+    margin-left: 0.5%;
 }
 
 .fourth {
-    display: block;
+    display: inline-block;
     background-color: gray;
-    height: 18vh;
-    width: 24%;
-    float: left;
-    margin: 4vh 0vh 0vh 2vh;
+    height: 100%;
+    width: 23%;
+    text-align: left;
+}
+
+.firstRow {
+    margin-top: 1%;
+    height: 20%;
+    width: 100%;
+}
+
+.secondRow {
+    margin-top: 1%;
+    height: 29%;
+    width: 100%;
+}
+
+.thirdRow {
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 21%;
+    width: 100%;
+}
+
+.fourthRow {
+    margin-top: 1%;
+    height: 20%;
+
+}
+
+.firstRow,
+.secondRow,
+.thirdrow,
+.fourthRow {
+    width: 100%;
+    padding: 2px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    Overflow-y: hidden;
+}
+
+.blockLayout {
+    width: 100%;
+    height: 100%;
+}
+
+.firstRow:after,
+.secondRow:after,
+.thirdRow:after,
+.fourthRow:after {
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
 }
