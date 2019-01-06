@@ -1,0 +1,204 @@
+/* note */
+@media screen and (max-width: 1366px) {
+    .firstRaw {
+        display: flex;
+        width: 98%;
+        height: 18%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .secondRaw {
+        display: flex;
+        width: 98%;
+        height: 45%;
+        margin: 2% 1% 1% 1%;
+    }
+
+    .thirdRaw {
+        display: flex;
+        width: 98%;
+        height: 26%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .firstItem {
+        height: 100%;
+    }
+
+    .secondItem {
+        height: 100%;
+        width: 100%;
+        background-color: green;
+    }
+
+    .thirdItem {
+        height: 100%;
+        width: 33%;
+    }
+
+    .first-first {
+        width: 35%;
+        background-color: red;
+    }
+
+    .first-second {
+        width: 65%;
+        background-color: orange;
+        margin-left: 1%;
+    }
+
+
+    .third-first {
+        background-color: brown;
+    }
+
+    .third-second {
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: blue;
+    }
+
+    .third-third {
+        background-color: purple;
+    }
+}
+
+/* ipad*/
+@media only screen and (max-width: 1024px) {
+    .firstRaw {
+        display: flex;
+        width: 98%;
+        height: 20%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .secondRaw {
+        display: flex;
+        width: 98%;
+        height: 45%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .thirdRaw {
+        display: flex;
+        width: 98%;
+        height: 30%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .firstItem {
+        height: 100%;
+    }
+
+    .secondItem {
+        height: 100%;
+        width: 100%;
+        background-color: red;
+        margin-top: 1%;
+    }
+
+    .thirdItem {
+        height: 100%;
+        width: 50%;
+        margin-top: 1%;
+    }
+
+    .first-first {
+        width: 35%;
+        background-color: orange;
+    }
+
+    .first-second {
+        width: 65%;
+        background-color: purple;
+    }
+
+    .third-second {
+        display: none;
+    }
+
+    .third-first {
+        background-color: green;
+    }
+
+    .third-third {
+        background-color: blue;
+        margin-left: 2%;
+    }
+}
+
+/* iphone */
+@media only screen and (max-width: 640px) {
+    .firstRaw {
+        display: flex;
+        width: 100%;
+        height: 20%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .secondRaw {
+        display: flex;
+        width: 100%;
+        height: 20%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .thirdRaw {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .firstItem {
+        height: 98%;
+        background-color: green;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .secondItem {
+        width: 70%;
+        height: 98%;
+        background-color: purple;
+        margin: 5% 1% 1% 1%;
+    }
+
+    .thirdItem {
+        width: 70%;
+        height: 90%;
+        background-color: red;
+        margin: 7% 1% 1% 1%;
+    }
+
+    .first-first {
+        width: 70%;
+        background-color: green;
+    }
+
+    .first-second {
+        display: none;
+    }
+
+    .third-second {
+        display: none;
+    }
+
+    .third-third {
+        display: none;
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    width: 99%;
+    height: 100%;
+}
+
+* {
+    height: 100%;
+    margin: 0;
+}
